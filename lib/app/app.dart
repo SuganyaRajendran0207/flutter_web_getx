@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_web/core/const/app_constants.dart';
 import 'package:flutter_web/core/routes/app_pages.dart';
@@ -14,14 +13,9 @@ class HomeApp extends StatefulWidget {
 }
 
 final GlobalKey<NavigatorState> navigatorKey =
-GlobalKey<NavigatorState>(debugLabel: "navigator");
+    GlobalKey<NavigatorState>(debugLabel: "navigator");
 
 class HomeAppState extends State<HomeApp> {
-  @override
-  void initState() {
-    super.initState();
-  }
-
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
@@ -54,4 +48,3 @@ class HomeAppState extends State<HomeApp> {
     );
   }
 }
-
